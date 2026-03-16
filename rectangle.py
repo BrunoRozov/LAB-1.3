@@ -2,13 +2,13 @@ from shape import Shape
 
 class Rectangle(Shape):
 
-    def __init__(self, width, height):
-        self.width = width
-        self.height = height
+    def __init__(self, pikkus, kõrgus):
+        self.pikkus = pikkus
+        self.kõrgus = kõrgus
 
     @property
     def area(self):
-        return self.width * self.height
+        return self.pikkus * self.kõrgus
 
     def __str__(self):
-        return f"Rectangle(width={self.width}, height={self.height})"
+        return f"Rectangle(width={self.pikkus}, height={self.kõrgus})"
