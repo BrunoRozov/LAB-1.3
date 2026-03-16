@@ -10,4 +10,6 @@ class Square(Shape):
         return self.suurus * self.suurus
 
     def __str__(self):
-        return f"Square(size={self.suurus})"
+        return f"Square(Suurus={self.suurus})" # <-- Eta size ehk suurus BLAAAAAAAAAAAAAAAA!!!!!!
+    #                    !!! See junn siin
+    # Nii juhtub, kui lased Ai oma koodi teha

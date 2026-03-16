@@ -11,4 +11,4 @@ class Rectangle(Shape):
         return self.pikkus * self.kõrgus
 
     def __str__(self):
-        return f"Rectangle(width={self.pikkus}, height={self.kõrgus})"
+        return f"Rectangle(pikkus={self.pikkus}, kõrgus={self.kõrgus})" # <-- Eta width ja eta height == pikkus ja suurus BLAAAAA ALALALALALALLALA ÄLVEEEE!!!

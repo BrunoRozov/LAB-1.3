@@ -3,8 +3,8 @@ from square import Square
 
 if __name__ == "__main__":
 
-    r = Rectangle(2, 3)
-    s = Square(5)
+    r = Rectangle(2, 3) # <-- Muuda seda jama, et saada teine ruut
+    s = Square(5) # <-- See ka!
 
     print(r)
     print(s)
