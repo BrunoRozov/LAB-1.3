@@ -21,7 +21,8 @@ class Rectangle:
 
     @property
     def area(self):
-        return self._width * self._height
+        area = self._width * self._height
+        return area
 
     def __str__(self):
         return f"Width: {self._width}, Height: {self._height}"
